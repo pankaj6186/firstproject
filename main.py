@@ -6,7 +6,7 @@ print"Let's get started"
 
 def start_chat(spy_name, spy_age, spy_rating):
     show_menu=True
-    while True:
+    while show_menu:
         menu_choice =input("What do you want to do? \n 1. Add a status update\n 0.Exit\n")
 
         if (menu_choice == 1):
